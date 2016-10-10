@@ -7,11 +7,25 @@ chai.should()
 
 var App = require('./index.js')
 
-describe("test description", () => {
+describe("Checking number for even", () => {
+    var even
+    beforeEach(function() {
+        even = 2
+    })
     it("should return something that we expected for Even", () => {
-        App.isEven(2).should.be.true
+        App.isEven(even).should.be.true
     })
-    it("should return something that we expected for odd", () => {
-        App.isOdd(3).should.be.true
+
+})
+
+
+describe("Checking number for odd", () => {
+    var odd
+    beforeEach(function() {
+        odd = 3
     })
+    it("should return something that we expected for Even", () => {
+        App.isOdd(odd).should.be.true
+    })
+
 })
