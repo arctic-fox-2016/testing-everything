@@ -24,7 +24,7 @@ describe("Checking number for odd", () => {
     beforeEach(function() {
         odd = 3
     })
-    it("should return something that we expected for Even", () => {
+    it("should return something that we expected for Odd", () => {
         App.isOdd(odd).should.be.true
     })
 
