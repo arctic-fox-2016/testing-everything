@@ -1,0 +1,30 @@
+{
+  "name": "testing-everything",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arctic-fox-2016/testing-everything.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arctic-fox-2016/testing-everything/issues"
+  },
+  "homepage": "https://github.com/arctic-fox-2016/testing-everything#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.1.0",
+    "mocha": "^3.1.0",
+    "mochawesome": "^1.5.3",
+    "opn-cli": "^3.1.0"
+  }
+}
